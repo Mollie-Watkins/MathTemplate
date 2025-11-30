@@ -8,6 +8,10 @@
 using namespace std;
 
 
+int half(int);
+
+
+
 // Name:
 // Purpose:
 // Parameters:
@@ -25,7 +29,15 @@ T half(T value)
 // Returns:
 int main()
 {
+    double a = 15.0;
+    float b = 7.0;
+    int c = 9;
     
+    cout << "\t\tHalf tester" << endl;
+    cout << "Double value " << a << ": " << half(a) << endl;
+    cout << "Float value " << b << ": " << half(b) << endl;
+    cout << "Int value " << c << ": " << half(c) << endl;
+    cout << endl << endl;
     
     return EXIT_SUCCESS;
 }
