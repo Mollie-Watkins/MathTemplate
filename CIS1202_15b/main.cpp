@@ -1,14 +1,37 @@
-//
-//  main.cpp
-//  CIS1202_15b
-//
-//  Created by Mollie Watkins on 11/28/25.
-//
+// Mollie Watkins
+// CIS 1202 801
+// November 29, 2025
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+
+template <typename T>
+T half(T value)
+{
+    
+    return value;
+}
+
+
+// Name: main
+// Purpose:
+// Returns:
+int main()
+{
+    
+    
+    return EXIT_SUCCESS;
+}
+
+
+// Name:
+// Purpose:
+// Parameters:
+// Returns:
+int half(int value)
+{
+    
+    return 0; // temp
 }
