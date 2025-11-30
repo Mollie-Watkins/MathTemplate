@@ -3,16 +3,21 @@
 // November 29, 2025
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 
+// Name:
+// Purpose:
+// Parameters:
+// Returns:
 template <typename T>
 T half(T value)
 {
-    
-    return value;
+    return value / 2;
 }
+
 
 
 // Name: main
@@ -26,12 +31,12 @@ int main()
 }
 
 
+
 // Name:
 // Purpose:
 // Parameters:
 // Returns:
 int half(int value)
 {
-    
-    return 0; // temp
+    return static_cast<int>(round(static_cast<float>(value) / 2));
 }
